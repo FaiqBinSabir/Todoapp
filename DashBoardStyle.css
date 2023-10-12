@@ -1,0 +1,156 @@
+body{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.home-navbar{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+   
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* a{
+    text-decoration: none;
+    color:#062d21;
+}
+a:hover{
+
+    color: green;
+} */
+.child{
+
+    margin-top: 5%;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+
+/* .todocontainer{
+
+    background: black;
+    height: 600px;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container1{
+
+    margin: 20px;
+
+    background: blue;
+    height: 700px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container11{
+
+    background:white;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+}
+.child111{
+
+    border-right: 1px solid gray;
+    width: 20%;
+    height: 100%;
+   
+}
+.child112{
+
+    border-bottom: 1px solid gray;
+    width: 80%;
+    height: 10%;
+    
+}
+.childtodotask{
+
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+.logo{
+    margin-top: 15px;
+    font-size: 50px;
+    color: green;
+
+}
+.nodata{
+
+
+    margin-top: 15px;
+    font-size: 50px;
+    color: red;
+
+
+}
+
+
+
+#username{
+
+    font-size: large;
+    font-weight: bold;
+    margin: 10px 5px;
+
+}
+
+.userdata{
+
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.taskdetails{
+
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.text{
+
+    font-size: 90%;
+    font-weight: bold;
+}
+
+
+#todoitem{
+
+    width: 60%;
+    border: 1px solid gray;
+    background: whitesmoke;
+}
+#tododescription{
+
+    width: 60%;
+    border: 1px solid gray;
+    background: whitesmoke;
+}
+
+.add{
+
+    margin-left: 5px;
+    background: green;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 10px;
+}
